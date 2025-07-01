@@ -1,61 +1,67 @@
 {
-    "name": "pushable",
-    "id": "pushable",
-    "title": "Pushable tokens",
-    "description": "Adds tokens that can be pushed around, respecting walls, and that will stop movement if you cannot push anything further.",
-    "version": "10.0.2",
-    "compatibility": {
-      "minimum": "10",
-      "verified": "10"},
-    "author": "o_Ove",
-	  "authors": [{
+  "name": "pushable",
+  "id": "pushable",
+  "title": "Pushable Tokens",
+  "description": "Adds tokens that can be pushed around, respecting walls, and that will stop movement if you cannot push anything further.",
+  "version": "12.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "author": "o_Ove",
+  "authors": [
+    {
       "name": "o_Ove",
       "discord": "Ove#4315",
       "patreon": "https://www.patreon.com/drO_o"
-    }],
-    "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "lang/en.json"
-      },{
-        "lang": "pt-BR",
-        "name": "Português Brasileiro",
-        "path": "lang/pt-BR.json"
-      },{
-        "lang": "de",
-        "name": "deutsch",
-        "path": "lang/de.json"
-        },{
-          "lang": "ja",
-          "name": "日本語",
-          "path": "lang/ja.json"
-      }
-    ],
-    "relationships": {     
-      "requires": [
-        {"id":"socketlib", "type": "module"}
-      ]
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
     },
-    "socket": true,
-    "esmodules": ["./scripts/pushable.mjs"],    
-    "url": "https://github.com/oOve/pushable",
-    "download": "https://github.com/oOve/pushable/archive/10.0.2.zip",
-    "manifest": "https://github.com/oOve/pushable/releases/latest/download/module.json",
-
-    "license": "LICENSE",
-    "readme": "README.md",
-    "styles":[],
-    "packs": [
+    {
+      "lang": "pt-BR",
+      "name": "Português Brasileiro",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
       {
-        "entity": "Actor",
-        "name": "pushable",
-        "label": "Pushable Tokens",
-        "path": "./packs/pushable.db",
-        "type": "Actor",
-        "system": "dnd5e"
+        "id": "socketlib",
+        "type": "module"
       }
-    ],    
-    "library": false,
-    "minimumCoreVersion": 10
-  }
+    ]
+  },
+  "socket": true,
+  "esmodules": ["./scripts/pushable.mjs"],
+  "url": "https://github.com/oOve/pushable",
+  "download": "https://github.com/oOve/pushable/archive/12.0.0.zip",
+  "manifest": "https://github.com/oOve/pushable/releases/latest/download/module.json",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "styles": [],
+  "packs": [
+    {
+      "type": "Actor",
+      "name": "pushable",
+      "label": "Pushable Tokens",
+      "path": "./packs/pushable.db",
+      "system": "dnd5e"
+    }
+  ],
+  "library": false
+}
