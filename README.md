@@ -1,4 +1,8 @@
 # foundry_pushable
+
+(Note: I just edit this to work for foundry 12. I didn't really changed anything much in the readme or even the author of the files. -LeahAzure)
+
+
 Pushable tokens for FoundryVTT.
 
 System agnostic.
