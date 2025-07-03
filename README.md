@@ -30,6 +30,6 @@ If you want to translate this module, download [this file](lang/en.json) and tra
 ## Demo:
 [![Sokoban puzzle using pushable tokens](http://img.youtube.com/vi/FOMEqN03SUU/0.jpg)](http://www.youtube.com/watch?v=FOMEqN03SUU "Sokoban video puzzle")
 
-I just updated it to work for foundry 12 -LeahAzure
+I just updated it to work for foundry 12 I didn't change much files outside updating them to work for foundry 12. -LeahAzure
 
 The original author: https://github.com/oOve/pushable
