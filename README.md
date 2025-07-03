@@ -9,7 +9,7 @@ To set up, install the manifest below (or use the default Foundry installer), ad
 
 Install manually by adding the module manifest:
 
-https://github.com/oOve/pushable/releases/latest/download/module.json
+(Work in progress)
 
 ## Localization
 Current support for:
