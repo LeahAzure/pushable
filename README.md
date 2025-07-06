@@ -9,7 +9,7 @@ To set up, install the manifest below (or use the default Foundry installer), ad
 
 Install manually by adding the module manifest:
 
-(Work in progress)
+https://github.com/LeahAzure/pushable/releases/latest/download/module.json
 
 ## Localization
 Current support for:
