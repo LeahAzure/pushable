@@ -3,17 +3,17 @@
   "id": "pushable",
   "title": "Pushable Tokens",
   "description": "Adds tokens that can be pushed around, respecting walls, and that will stop movement if you cannot push anything further.",
-  "version": "12.0.0",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
   },
-  "author": "o_Ove",
+  "author": "o_Ove, Azure",
   "authors": [
     {
-      "name": "o_Ove",
-      "discord": "Ove#4315",
-      "patreon": "https://www.patreon.com/drO_o"
+      "name": "Azure",
+      "discord": "AzureProject",
+      "patreon": "-"
     }
   ],
   "languages": [
