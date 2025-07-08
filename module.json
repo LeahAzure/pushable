@@ -8,7 +8,7 @@
     "minimum": "12",
     "verified": "12"
   },
-  "author": "o_Ove, Azure",
+  "author": "Azure",
   "authors": [
     {
       "name": "Azure",
@@ -49,8 +49,8 @@
   "socket": true,
   "esmodules": ["./scripts/pushable.mjs"],
   "url": "https://github.com/LeahAzure/pushable",
-  "download": "https://github.com/LeahAzure/pushable/archive/refs/tags/Foundry12.zip",
-  "manifest": "https://github.com/LeahAzure/pushable/releases/download/Foundry12/module.json",
+  "download": "https://github.com/LeahAzure/pushable/archive/refs/tags/1.0.1.zip",
+  "manifest": "https://github.com/LeahAzure/pushable/releases/download/1.0.1/module.json",
   "license": "LICENSE",
   "readme": "README.md",
   "styles": [],
