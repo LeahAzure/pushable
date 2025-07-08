@@ -3,7 +3,7 @@
   "id": "pushable",
   "title": "Pushable Tokens",
   "description": "Adds tokens that can be pushed around, respecting walls, and that will stop movement if you cannot push anything further.",
-  "version": "1.2.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
